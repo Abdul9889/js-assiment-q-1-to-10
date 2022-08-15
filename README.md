@@ -1,0 +1,1 @@
+# js-assiment-q-1-to-10
