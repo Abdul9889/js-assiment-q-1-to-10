@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function primeNumber(p)
+            {
+
+            if (p===1)
+            {
+                return false;
+            }
+            else if(p === 2)
+            {
+                return true;
+            }else
+            {
+                for(var x = 2; x < p; x++)
+                {
+                if(p % x === 0)
+                {
+                    // return false;
+                    console.log(p + " is not a prime number")
+                }
+                }
+                // return true;  
+                console.log(p + " is a prime number")
+            }
+            }
+
+            console.log(primeNumber(11));
+
+    </script>
+</body>
+</html>

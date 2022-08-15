@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        function polindrome(str) {  
+        
+          
+        var len = enterValue.length;  
+
+     
+        for (let i = 0; i < len / 2; i++) {  
+
+             
+            if (enterValue[i] !== enterValue[len - 1 - i]) {  
+                alert( 'It is not a palindrome');  
+            }  
+        }  
+        alert( 'It is a palindrome');  
+        }  
+ 
+        var enterValue = prompt('Enter a Word: ');  
+ 
+        var userValue = polindrome(enterValue);  
+
+        console.log(userValue);  
+    </script>
+</body>
+</html>

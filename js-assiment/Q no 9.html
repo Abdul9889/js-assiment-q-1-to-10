@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        function dataTypes(x) {
+            if (typeof(x) === "number") {
+                console.log("x is a number")
+            }
+            if (typeof(x) === "string") {
+                console.log("x is a string")
+            }
+            if (typeof(x) === "undefined") {
+                console.log("x is undefined")
+            }
+            if (typeof(x) === "boolean") {
+                console.log("x is boolean")
+            }
+            if (typeof(x) === "array") {
+                console.log(typeof(x))
+            }
+        }
+  
+        dataTypes(12)
+        dataTypes("hello gfg")
+        dataTypes(["hello", 34])
+        dataTypes()
+        dataTypes(true)
+
+
+
+    </script>
+</body>
+</html>
